@@ -1,11 +1,11 @@
 /*
 * Déclarer une structure de donnée qui va s'appeler String. La structure va avoir une propriété characters et une propriété length.
 */
-typedef struct String
+typedef struct
 {
-	char word[512];
+	char characters[512];
 	int lenght;
-};
+}String;
 
 
 /*
